@@ -1,0 +1,24 @@
+{
+    "rectangles": [
+        {
+            "topLeft": {
+                "x":5,
+                "y":16
+            },
+            "bottomRight": {
+                "x":9,
+                "y":24
+            }
+        },
+        {
+            "topLeft": {
+                "x":6,
+                "y":19
+            },
+            "bottomRight": {
+                "x":8,
+                "y":25
+            }
+        }
+    ]
+}

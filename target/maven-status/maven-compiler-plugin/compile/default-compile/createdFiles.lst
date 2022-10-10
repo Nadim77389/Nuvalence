@@ -1,0 +1,7 @@
+Nuvalence\Rectangle\Beans\RectangleResponse.class
+Nuvalence\Rectangle\Controllers\RectangleController.class
+Nuvalence\Rectangle\Services\RectangleServices.class
+Nuvalence\Rectangle\App.class
+Nuvalence\Rectangle\Beans\Coordinate.class
+Nuvalence\Rectangle\Beans\RectangleRequest.class
+Nuvalence\Rectangle\Beans\Rectangle.class
