@@ -1,6 +1,20 @@
-Rectangles
+# Nadim's Notes:
+> I realized this needed to be submitted about half way in as initially I was under the impression this would be just demonstrated. With this lack of information, I created this as an API to more easily pass in examples of rectangles. Maven is compatible with Linux so I am hoping this counts as "must run on Linux."
 
-Problem Description:
+> I have attached an excel spreadsheet to better visually understand the coordinates and potential rectangles.
+
+> I have attached a postman script with the calls.
+
+> I used Lombok. I believe this needs to be present on the client machine.
+
+> Intersection and Containment were not too tricky. Adjacency I had to do some more intense googling for help. I realized there is a java.awt.rectangle intersection class I could have just leveraged but I assumed you'd want a more broken down solution.
+
+
+
+
+# Rectangles
+
+## Problem Description:
 You are required to write code in Java implementing certain algorithms that analyze rectangles and
 features that exist among rectangles. Your implementation is required to cover the following:
 
@@ -19,7 +33,7 @@ segment on a side of rectangle A exists as a set of points on some side of Recta
 convenience, these scenarios are diagrammed in Appendix 3.
 
 
-Your Submission Must Include:
+## Your Submission Must Include:
 1. An implementation of the rectangle entity as well as implementations for the algorithms that
 define the operations listed above.
 
