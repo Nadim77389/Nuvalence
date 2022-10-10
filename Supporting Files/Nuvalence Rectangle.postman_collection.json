@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "28c0e60f-e999-41a9-b8cb-298e7999fda5",
+		"name": "Nuvalence Rectangle",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST /Rectangle Adjacent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rectangles\": [\r\n        {\r\n            \"topLeft\": {\r\n                \"x\":5,\r\n                \"y\":10\r\n            },\r\n            \"bottomRight\": {\r\n                \"x\":6,\r\n                \"y\":14\r\n            }\r\n        },\r\n        {\r\n            \"topLeft\": {\r\n                \"x\":6,\r\n                \"y\":4\r\n            },\r\n            \"bottomRight\": {\r\n                \"x\":7,\r\n                \"y\":9\r\n            }\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Rectangle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Rectangle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST /Rectangle Containment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rectangles\": [\r\n        {\r\n            \"topLeft\": {\r\n                \"x\":5,\r\n                \"y\":15\r\n            },\r\n            \"bottomRight\": {\r\n                \"x\":9,\r\n                \"y\":23\r\n            }\r\n        },\r\n        {\r\n            \"topLeft\": {\r\n                \"x\":6,\r\n                \"y\":18\r\n            },\r\n            \"bottomRight\": {\r\n                \"x\":8,\r\n                \"y\":23\r\n            }\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Rectangle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Rectangle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST /Rectangle No Association",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rectangles\": [\r\n        {\r\n            \"topLeft\": {\r\n                \"x\":5,\r\n                \"y\":10\r\n            },\r\n            \"bottomRight\": {\r\n                \"x\":6,\r\n                \"y\":14\r\n            }\r\n        },\r\n        {\r\n            \"topLeft\": {\r\n                \"x\":2,\r\n                \"y\":10\r\n            },\r\n            \"bottomRight\": {\r\n                \"x\":3,\r\n                \"y\":15\r\n            }\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Rectangle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Rectangle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST /Rectangle Intersecting",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rectangles\": [\r\n        {\r\n            \"topLeft\": {\r\n                \"x\":5,\r\n                \"y\":16\r\n            },\r\n            \"bottomRight\": {\r\n                \"x\":9,\r\n                \"y\":24\r\n            }\r\n        },\r\n        {\r\n            \"topLeft\": {\r\n                \"x\":6,\r\n                \"y\":19\r\n            },\r\n            \"bottomRight\": {\r\n                \"x\":8,\r\n                \"y\":25\r\n            }\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Rectangle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Rectangle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST /Rectangle Intersecting Corner",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rectangles\": [\r\n        {\r\n            \"topLeft\": {\r\n                \"x\":5,\r\n                \"y\":10\r\n            },\r\n            \"bottomRight\": {\r\n                \"x\":6,\r\n                \"y\":14\r\n            }\r\n        },\r\n        {\r\n            \"topLeft\": {\r\n                \"x\":6,\r\n                \"y\":4\r\n            },\r\n            \"bottomRight\": {\r\n                \"x\":7,\r\n                \"y\":9\r\n            }\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Rectangle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Rectangle"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
