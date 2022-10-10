@@ -1,5 +1,5 @@
 # Nadim's Notes:
-> I realized this needed to be submitted about half way in as initially I was under the impression this would be just demonstrated. With this lack of information, I created this as an API to more easily pass in examples of rectangles. Maven is compatible with Linux so I am hoping this counts as "must run on Linux."
+> I realized this needed to be submitted about half way in my work, as initially I was under the impression this would be just demonstrated. With this lack of information, I created this as an API to more easily pass in examples of rectangles. Maven is compatible with Linux so I am hoping this counts as "must run on Linux." I also would have gradually checked in my changes instead of a giant initial commit. Apologies!
 
 > I have attached an excel spreadsheet to better visually understand the coordinates and potential rectangles.
 
